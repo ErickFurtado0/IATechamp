@@ -15,7 +15,15 @@ namespace IATechamp.Controllers
                 _playerService = playerService;
             }
 
-            [HttpPut]
+            [HttpPost]
+            [Route("post-nameplayer")]
+            public async Task<ActionResult<IList<PlayerModel>>> PostNamePlayer(string namePlayer)
+            {
+                var result = await _playerService.PostNamePlayer(namePlayer);
+                return Ok(result);
+            }
+
+        [HttpPut]
             [Route("set-players-name")]
             public async Task<ActionResult<IList<PlayerModel>>> SetNamePlayer(string namePlayer)
             {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hu+dClXWrrgpSWfeaS3azel/homI4NauvF7UB/NLL+237KksU7aVJ2eaB4o2YqanKAAepLnCx2/FJdxJPLa9JA==",
+  "dgSpecHash": "D/pSzG/TsvWogvp2i/xI9R+qJgD4A8oBHKqaRt9m21UMC+1zHWEugd//u+wKgPJiileXIorycKm03mxWToABFA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\IATechamp\\IATechamp\\IATechamp.csproj",
+  "projectFilePath": "C:\\Projects\\IATechamp2.0\\IATechamp\\IATechamp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\erick.furtado\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\erick.furtado\\.nuget\\packages\\microsoft.aspnet.cors\\5.2.9\\microsoft.aspnet.cors.5.2.9.nupkg.sha512",

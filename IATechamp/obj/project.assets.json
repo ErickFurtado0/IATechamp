@@ -7213,11 +7213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\IATechamp\\IATechamp\\IATechamp.csproj",
+      "projectUniqueName": "C:\\Projects\\IATechamp2.0\\IATechamp\\IATechamp.csproj",
       "projectName": "IATechamp",
-      "projectPath": "C:\\Projects\\IATechamp\\IATechamp\\IATechamp.csproj",
+      "projectPath": "C:\\Projects\\IATechamp2.0\\IATechamp\\IATechamp.csproj",
       "packagesPath": "C:\\Users\\erick.furtado\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\IATechamp\\IATechamp\\obj\\",
+      "outputPath": "C:\\Projects\\IATechamp2.0\\IATechamp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\erick.furtado\\AppData\\Roaming\\NuGet\\NuGet.Config",
