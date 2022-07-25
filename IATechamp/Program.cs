@@ -11,7 +11,7 @@ namespace IATechamp
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            builder.Services.AddCors();
             builder.Services.AddControllers();
             builder.Services.AddDbContext<DataContext>(options =>
             {
@@ -39,7 +39,9 @@ namespace IATechamp
 
             app.Run();
 
-            app.UseCors("CorsPolicy");
+            var urlIatechamp = "https://iatechamp.com";
+
+            app.UseCors(b => b.WithOrigins(urlIatechamp));
         }
     }
 }
